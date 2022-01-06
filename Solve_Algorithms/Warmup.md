@@ -1,6 +1,7 @@
 # Warmup
 ## Plus Minus
 [Plus Minus challenge](https://www.hackerrank.com/challenges/plus-minus?isFullScreen=true)
+Python
 ```Python
 def plusMinus(arr):
     res = {'positive': 0, 'negative': 0, 'zeros': 0}
@@ -14,6 +15,7 @@ def plusMinus(arr):
     for i in map(lambda x: x / len(arr) , res.values()):
         print("{:.6f}".format(i))
 ```
+Javascript
 ```javascript
 function plusMinus(arr) {
     let res = {'positive': 0, 'negative': 0, 'zeros': 0};
