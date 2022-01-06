@@ -1,6 +1,6 @@
 # Warmup
 ## Plus Minus
-[Plus Minus challenge](https://www.hackerrank.com/challenges/plus-minus?isFullScreen=true)
+[Plus Minus challenge](https://www.hackerrank.com/challenges/plus-minus?isFullScreen=true)  
 Python
 ```Python
 def plusMinus(arr):
