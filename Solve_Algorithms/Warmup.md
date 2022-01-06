@@ -118,3 +118,8 @@ function birthdayCakeCandles(candles) {
     return num_repeat;
 }
 ```
+## Time conversion
+[Time conversion challenge](https://www.hackerrank.com/challenges/time-conversion/problem)  
+Python
+
+Javascript
