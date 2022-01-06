@@ -51,3 +51,38 @@ function staircase(n) {
     }
 }
 ```
+## Mini-Max Sum
+[Mini-Max Sum challenge](https://www.hackerrank.com/challenges/mini-max-sum/problem)  
+Python
+```python
+def miniMaxSum(arr):
+    xmin = xmax = arr[0]
+    xsum = 0
+    for i in arr:
+        xsum += i
+        if i < xmin:
+           xmin = i
+        elif i > xmax:
+            xmax = i
+    print("{0} {1}".format(xsum - xmax, xsum - xmin))
+```
+Javascript
+```javascript
+function miniMaxSum(arr) {
+    // Write your code here
+    let xmin = arr[0]
+    let xmax = arr[0]
+    let xsum = arr[0]
+    for (let i = 1; i < arr.length; i++) {
+        xsum += arr[i]
+        if (arr[i] < xmin) {
+            xmin = arr[i]
+        }
+        else if (arr[i] > xmax) {
+            xmax = arr[i] 
+        }
+    }
+    console.log('%s %s', (xsum - xmax), (xsum - xmin))
+}
+
+```
