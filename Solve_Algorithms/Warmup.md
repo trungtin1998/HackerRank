@@ -35,3 +35,19 @@ function plusMinus(arr) {
     })   
 }
 ```
+## Staircase
+[Staircase challenge]()  
+Python
+```python
+def staircase(n):
+    for i in range(1, n + 1):
+        print("{0:>{1}}".format('#' * i, n))
+```
+Javascript
+```javascript
+function staircase(n) {
+    for (let i = 1; i <= n; i++) {
+        console.log('#'.repeat(i).padStart(n))
+    }
+}
+```
