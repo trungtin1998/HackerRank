@@ -86,3 +86,35 @@ function miniMaxSum(arr) {
 }
 
 ```
+## Birthday Cake Candles
+[Birthday Cake Candles challenge](https://www.hackerrank.com/challenges/birthday-cake-candles/problem)  
+Python
+```python
+def birthdayCakeCandles(candles):
+    xmax = candles[0]
+    xrepeat = 1
+    for i in range(1, len(candles)):
+        if candles[i] > xmax:
+            xmax = candles[i]
+            xrepeat = 1
+        elif candles[i] == xmax:
+            xrepeat += 1
+    return xrepeat
+```
+Javascript
+```javascript
+function birthdayCakeCandles(candles) {
+    let xmax = candles[0];
+    let num_repeat = 1;
+    for (let i = 1; i < candles.length; i++) {
+        if (candles[i] > xmax) {
+            xmax = candles[i];
+            num_repeat = 1;
+        }
+        else if (candles[i] == xmax) {
+            num_repeat++;
+        }
+    }
+    return num_repeat;
+}
+```
