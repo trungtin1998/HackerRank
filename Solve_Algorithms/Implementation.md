@@ -23,8 +23,6 @@ function migratoryBirds(arr) {
         if (d[i] > max) {
             max = d[i];
             res = i;
-            console.log("Max: " + max);
-            console.log("Value: " + res);
         }
         else if (d[i] == max) {
             res = (i < res) ? i : res;
